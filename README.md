@@ -26,14 +26,15 @@ Ace Canteen is a web application designed to provide a seamless and engaging onl
 
 1. Clone the repository:
     ```bash
-    git clone --no-checkout https://github.com/sasukeuchiha14/Projects.git
-    cd Projects
-    git sparse-checkout init --cone
-    git sparse-checkout set "Web Dev/Ace Canteen"
-    git checkout main
+    git clone https://github.com/sasukeuchiha14/ace-canteen.git
     ```
 
-2. Install dependencies:
+2. Open the project directory:
+    ```bash
+    cd ace-canteen
+    ```
+
+3. Install dependencies:
     ```bash
     cd frontend
     npm install
@@ -42,7 +43,7 @@ Ace Canteen is a web application designed to provide a seamless and engaging onl
     npm install
     ```
 
-3. Start the development server:
+4. Start the development server:
 
     Terminal 1:
     ```bash
@@ -55,7 +56,7 @@ Ace Canteen is a web application designed to provide a seamless and engaging onl
     node server.js
     ```
 
-4. Ensure MongoDB is running and connected.
+5. Ensure MongoDB is running and connected.
 
 ## API Endpoints
 
